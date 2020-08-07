@@ -1,4 +1,5 @@
 """Models for movie ratings app."""
+
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
@@ -58,7 +59,7 @@ class Movie(db.Model):
     # ratings = a list of Rating objects
 
     def __repr__(self):
-        return f'<Movie movie_id={self.movie_id} title={self.title}>'
+        return f'<Movie movie_i   d={self.movie_id} title={self.title}>'
 
 
 class Rating(db.Model):
